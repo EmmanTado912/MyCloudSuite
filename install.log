@@ -1,0 +1,694 @@
+
+2020-12-29 07:19:04...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2020-12-29 07:19:07...Begin System Check Process *************
+2020-12-29 07:19:08...XML Parsing Support Found
+2020-12-29 07:19:08...JSON Parsing Support Found
+2020-12-29 07:19:08...MBString Support Found
+2020-12-29 07:19:08...ZIP Support Found
+2020-12-29 07:19:08.../custom directory and subdirectory check passed
+2020-12-29 07:19:08...cache directory and subdirectory check passed
+2020-12-29 07:19:09.../module  directory and subdirectory check passed
+2020-12-29 07:19:09.../upload directory check passed
+2020-12-29 07:19:09.../zip check passed
+2020-12-29 07:19:09...PCRE version check passed
+2020-12-29 07:19:09...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2020-12-29 07:19:09...php.ini location found. C:\xampp\php\php.ini
+2020-12-29 07:19:09...Outputting HTML for System check
+2020-12-29 07:19:09...No Errors were found *************
+2020-12-29 07:19:09...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2020-12-29 07:19:11...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2020-12-29 07:24:53...Begin DB Check Process *************
+2020-12-29 07:24:53...testing with mysql:mysqli
+2020-12-29 07:24:53...Basic form info is valid, continuing Process.
+2020-12-29 07:24:53...Testing user account...
+2020-12-29 07:24:53...Connection made using  host: localhost, usr: useradmin
+2020-12-29 07:24:53...SUCCESS:: no errors detected!
+2020-12-29 07:24:53...End DB Check Process *************
+2020-12-29 07:24:53...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2020-12-29 07:24:53...calling handleSugarConfig()
+2020-12-29 07:24:53...calling handleHtaccess()
+2020-12-29 07:24:53...calling handleDbCreateDatabase()
+2020-12-29 07:24:55...looping through all the Beans and create their tables
+2020-12-29 07:24:55...processing table acl_actions
+2020-12-29 07:24:55...creating table acl_actions
+2020-12-29 07:24:55...creating Relationship Meta for ACLAction
+2020-12-29 07:24:55...processing table acl_roles
+2020-12-29 07:24:56...creating table acl_roles
+2020-12-29 07:24:56...creating Relationship Meta for ACLRole
+2020-12-29 07:24:56...processing table relationships
+2020-12-29 07:24:56...creating table relationships
+2020-12-29 07:24:56...creating Relationship Meta for Relationship
+2020-12-29 07:24:56...processing table leads
+2020-12-29 07:24:59...creating table leads
+2020-12-29 07:24:59...creating Relationship Meta for Lead
+2020-12-29 07:25:00...processing table cases
+2020-12-29 07:25:01...creating table cases
+2020-12-29 07:25:01...creating Relationship Meta for Case
+2020-12-29 07:25:02...processing table bugs
+2020-12-29 07:25:03...creating table bugs
+2020-12-29 07:25:03...creating Relationship Meta for Bug
+2020-12-29 07:25:04...processing table users
+2020-12-29 07:25:05...creating table users
+2020-12-29 07:25:05...creating Relationship Meta for User
+2020-12-29 07:25:05...processing table campaign_log
+2020-12-29 07:25:05...creating table campaign_log
+2020-12-29 07:25:05...creating Relationship Meta for CampaignLog
+2020-12-29 07:25:06...processing table project
+2020-12-29 07:25:06...creating table project
+2020-12-29 07:25:06...creating Relationship Meta for Project
+2020-12-29 07:25:07...processing table project_task
+2020-12-29 07:25:08...creating table project_task
+2020-12-29 07:25:09...creating Relationship Meta for ProjectTask
+2020-12-29 07:25:09...processing table campaigns
+2020-12-29 07:25:10...creating table campaigns
+2020-12-29 07:25:10...creating Relationship Meta for Campaign
+2020-12-29 07:25:12...processing table prospect_lists
+2020-12-29 07:25:13...creating table prospect_lists
+2020-12-29 07:25:13...creating Relationship Meta for ProspectList
+2020-12-29 07:25:13...processing table prospects
+2020-12-29 07:25:14...creating table prospects
+2020-12-29 07:25:14...creating Relationship Meta for Prospect
+2020-12-29 07:25:14...processing table email_marketing
+2020-12-29 07:25:15...creating table email_marketing
+2020-12-29 07:25:15...creating Relationship Meta for EmailMarketing
+2020-12-29 07:25:16...processing table campaign_trkrs
+2020-12-29 07:25:16...creating table campaign_trkrs
+2020-12-29 07:25:16...creating Relationship Meta for CampaignTracker
+2020-12-29 07:25:16...processing table releases
+2020-12-29 07:25:16...creating table releases
+2020-12-29 07:25:16...creating Relationship Meta for Release
+2020-12-29 07:25:17...processing table emailman
+2020-12-29 07:25:17...creating table emailman
+2020-12-29 07:25:17...creating Relationship Meta for EmailMan
+2020-12-29 07:25:17...processing table schedulers
+2020-12-29 07:25:17...creating table schedulers
+2020-12-29 07:25:17...creating Relationship Meta for Scheduler
+2020-12-29 07:25:18...processing table job_queue
+2020-12-29 07:25:18...creating table job_queue
+2020-12-29 07:25:18...creating Relationship Meta for SchedulersJob
+2020-12-29 07:25:18...processing table contacts
+2020-12-29 07:25:19...creating table contacts
+2020-12-29 07:25:19...creating Relationship Meta for Contact
+2020-12-29 07:25:20...processing table accounts
+2020-12-29 07:25:21...creating table accounts
+2020-12-29 07:25:21...creating Relationship Meta for Account
+2020-12-29 07:25:22...processing table opportunities
+2020-12-29 07:25:24...creating table opportunities
+2020-12-29 07:25:24...creating Relationship Meta for Opportunity
+2020-12-29 07:25:25...processing table email_templates
+2020-12-29 07:25:26...creating table email_templates
+2020-12-29 07:25:26...creating Relationship Meta for EmailTemplate
+2020-12-29 07:25:26...processing table notes
+2020-12-29 07:25:27...creating table notes
+2020-12-29 07:25:27...creating Relationship Meta for Note
+2020-12-29 07:25:27...processing table calls
+2020-12-29 07:25:28...creating table calls
+2020-12-29 07:25:28...creating Relationship Meta for Call
+2020-12-29 07:25:29...processing table emails
+2020-12-29 07:25:30...creating table emails
+2020-12-29 07:25:30...creating Relationship Meta for Email
+2020-12-29 07:25:30...processing table meetings
+2020-12-29 07:25:31...creating table meetings
+2020-12-29 07:25:31...creating Relationship Meta for Meeting
+2020-12-29 07:25:31...processing table tasks
+2020-12-29 07:25:32...creating table tasks
+2020-12-29 07:25:32...creating Relationship Meta for Task
+2020-12-29 07:25:33...processing table users
+2020-12-29 07:25:33...processing table users
+2020-12-29 07:25:33...processing table currencies
+2020-12-29 07:25:33...creating table currencies
+2020-12-29 07:25:33...creating Relationship Meta for Currency
+2020-12-29 07:25:33...processing table tracker
+2020-12-29 07:25:34...creating table tracker
+2020-12-29 07:25:34...creating Relationship Meta for Tracker
+2020-12-29 07:25:34...processing table import_maps
+2020-12-29 07:25:34...creating table import_maps
+2020-12-29 07:25:34...creating Relationship Meta for ImportMap
+2020-12-29 07:25:34...processing table users_last_import
+2020-12-29 07:25:35...creating table users_last_import
+2020-12-29 07:25:35...creating Relationship Meta for UsersLastImport
+2020-12-29 07:25:35...processing table config
+2020-12-29 07:25:35...creating table config
+2020-12-29 07:25:35...creating Relationship Meta for Administration
+2020-12-29 07:25:35...processing table upgrade_history
+2020-12-29 07:25:36...creating table upgrade_history
+2020-12-29 07:25:36...creating Relationship Meta for UpgradeHistory
+2020-12-29 07:25:36...processing table vcals
+2020-12-29 07:25:36...creating table vcals
+2020-12-29 07:25:36...creating Relationship Meta for vCal
+2020-12-29 07:25:36...processing table alerts
+2020-12-29 07:25:37...creating table alerts
+2020-12-29 07:25:37...creating Relationship Meta for Alert
+2020-12-29 07:25:37...processing table roles
+2020-12-29 07:25:37...creating table roles
+2020-12-29 07:25:37...creating Relationship Meta for Role
+2020-12-29 07:25:37...processing table documents
+2020-12-29 07:25:41...creating table documents
+2020-12-29 07:25:41...creating Relationship Meta for Document
+2020-12-29 07:25:41...processing table document_revisions
+2020-12-29 07:25:41...creating table document_revisions
+2020-12-29 07:25:42...creating Relationship Meta for DocumentRevision
+2020-12-29 07:25:42...processing table fields_meta_data
+2020-12-29 07:25:42...creating table fields_meta_data
+2020-12-29 07:25:42...creating Relationship Meta for FieldsMetaData
+2020-12-29 07:25:42...processing table 
+2020-12-29 07:25:42...processing table inbound_email
+2020-12-29 07:25:43...creating table inbound_email
+2020-12-29 07:25:43...creating Relationship Meta for InboundEmail
+2020-12-29 07:25:43...processing table saved_search
+2020-12-29 07:25:43...creating table saved_search
+2020-12-29 07:25:43...creating Relationship Meta for SavedSearch
+2020-12-29 07:25:44...processing table user_preferences
+2020-12-29 07:25:44...creating table user_preferences
+2020-12-29 07:25:44...creating Relationship Meta for UserPreference
+2020-12-29 07:25:44...processing table 
+2020-12-29 07:25:44...processing table email_addresses
+2020-12-29 07:25:45...creating table email_addresses
+2020-12-29 07:25:45...creating Relationship Meta for EmailAddress
+2020-12-29 07:25:45...processing table emails_text
+2020-12-29 07:25:45...creating table emails_text
+2020-12-29 07:25:45...creating Relationship Meta for EmailText
+2020-12-29 07:25:45...processing table spots
+2020-12-29 07:25:46...creating table spots
+2020-12-29 07:25:46...creating Relationship Meta for Spots
+2020-12-29 07:25:46...processing table aobh_businesshours
+2020-12-29 07:25:46...creating table aobh_businesshours
+2020-12-29 07:25:46...creating Relationship Meta for AOBH_BusinessHours
+2020-12-29 07:25:47...processing table sugarfeed
+2020-12-29 07:25:47...creating table sugarfeed
+2020-12-29 07:25:48...creating Relationship Meta for SugarFeed
+2020-12-29 07:25:48...processing table eapm
+2020-12-29 07:25:49...creating table eapm
+2020-12-29 07:25:49...creating Relationship Meta for EAPM
+2020-12-29 07:25:49...processing table oauth_consumer
+2020-12-29 07:25:49...creating table oauth_consumer
+2020-12-29 07:25:49...creating Relationship Meta for OAuthKey
+2020-12-29 07:25:49...processing table oauth_tokens
+2020-12-29 07:25:50...creating table oauth_tokens
+2020-12-29 07:25:50...creating Relationship Meta for OAuthToken
+2020-12-29 07:25:50...processing table am_projecttemplates
+2020-12-29 07:25:51...creating table am_projecttemplates
+2020-12-29 07:25:51...creating Relationship Meta for AM_ProjectTemplates
+2020-12-29 07:25:51...processing table am_tasktemplates
+2020-12-29 07:25:52...creating table am_tasktemplates
+2020-12-29 07:25:52...creating Relationship Meta for AM_TaskTemplates
+2020-12-29 07:25:53...processing table favorites
+2020-12-29 07:25:53...creating table favorites
+2020-12-29 07:25:53...creating Relationship Meta for Favorites
+2020-12-29 07:25:53...processing table aok_knowledge_base_categories
+2020-12-29 07:25:54...creating table aok_knowledge_base_categories
+2020-12-29 07:25:54...creating Relationship Meta for AOK_Knowledge_Base_Categories
+2020-12-29 07:25:55...processing table aok_knowledgebase
+2020-12-29 07:25:56...creating table aok_knowledgebase
+2020-12-29 07:25:56...creating Relationship Meta for AOK_KnowledgeBase
+2020-12-29 07:25:56...processing table reminders
+2020-12-29 07:25:57...creating table reminders
+2020-12-29 07:25:57...creating Relationship Meta for Reminder
+2020-12-29 07:25:57...processing table reminders_invitees
+2020-12-29 07:25:58...creating table reminders_invitees
+2020-12-29 07:25:58...creating Relationship Meta for Reminder_Invitee
+2020-12-29 07:25:58...processing table fp_events
+2020-12-29 07:25:59...creating table fp_events
+2020-12-29 07:25:59...creating Relationship Meta for FP_events
+2020-12-29 07:25:59...processing table fp_event_locations
+2020-12-29 07:26:01...creating table fp_event_locations
+2020-12-29 07:26:01...creating Relationship Meta for FP_Event_Locations
+2020-12-29 07:26:01...processing table aod_indexevent
+2020-12-29 07:26:02...creating table aod_indexevent
+2020-12-29 07:26:02...creating Relationship Meta for AOD_IndexEvent
+2020-12-29 07:26:03...processing table aod_index
+2020-12-29 07:26:04...creating table aod_index
+2020-12-29 07:26:04...creating Relationship Meta for AOD_Index
+2020-12-29 07:26:04...processing table aop_case_events
+2020-12-29 07:26:05...creating table aop_case_events
+2020-12-29 07:26:05...creating Relationship Meta for AOP_Case_Events
+2020-12-29 07:26:05...processing table aop_case_updates
+2020-12-29 07:26:07...creating table aop_case_updates
+2020-12-29 07:26:07...creating Relationship Meta for AOP_Case_Updates
+2020-12-29 07:26:07...processing table aor_reports
+2020-12-29 07:26:08...creating table aor_reports
+2020-12-29 07:26:08...creating Relationship Meta for AOR_Report
+2020-12-29 07:26:08...processing table aor_fields
+2020-12-29 07:26:09...creating table aor_fields
+2020-12-29 07:26:09...creating Relationship Meta for AOR_Field
+2020-12-29 07:26:09...processing table aor_charts
+2020-12-29 07:26:09...creating table aor_charts
+2020-12-29 07:26:09...creating Relationship Meta for AOR_Chart
+2020-12-29 07:26:10...processing table aor_conditions
+2020-12-29 07:26:10...creating table aor_conditions
+2020-12-29 07:26:10...creating Relationship Meta for AOR_Condition
+2020-12-29 07:26:10...processing table aor_scheduled_reports
+2020-12-29 07:26:11...creating table aor_scheduled_reports
+2020-12-29 07:26:11...creating Relationship Meta for AOR_Scheduled_Reports
+2020-12-29 07:26:11...processing table aos_contracts
+2020-12-29 07:26:12...creating table aos_contracts
+2020-12-29 07:26:12...creating Relationship Meta for AOS_Contracts
+2020-12-29 07:26:13...processing table aos_invoices
+2020-12-29 07:26:14...creating table aos_invoices
+2020-12-29 07:26:14...creating Relationship Meta for AOS_Invoices
+2020-12-29 07:26:15...processing table aos_pdf_templates
+2020-12-29 07:26:16...creating table aos_pdf_templates
+2020-12-29 07:26:16...creating Relationship Meta for AOS_PDF_Templates
+2020-12-29 07:26:16...processing table aos_product_categories
+2020-12-29 07:26:17...creating table aos_product_categories
+2020-12-29 07:26:17...creating Relationship Meta for AOS_Product_Categories
+2020-12-29 07:26:17...processing table aos_products
+2020-12-29 07:26:18...creating table aos_products
+2020-12-29 07:26:18...creating Relationship Meta for AOS_Products
+2020-12-29 07:26:19...processing table aos_products_quotes
+2020-12-29 07:26:19...creating table aos_products_quotes
+2020-12-29 07:26:19...creating Relationship Meta for AOS_Products_Quotes
+2020-12-29 07:26:20...processing table aos_line_item_groups
+2020-12-29 07:26:21...creating table aos_line_item_groups
+2020-12-29 07:26:21...creating Relationship Meta for AOS_Line_Item_Groups
+2020-12-29 07:26:21...processing table aos_quotes
+2020-12-29 07:26:22...creating table aos_quotes
+2020-12-29 07:26:22...creating Relationship Meta for AOS_Quotes
+2020-12-29 07:26:22...processing table aow_actions
+2020-12-29 07:26:23...creating table aow_actions
+2020-12-29 07:26:23...creating Relationship Meta for AOW_Action
+2020-12-29 07:26:24...processing table aow_workflow
+2020-12-29 07:26:25...creating table aow_workflow
+2020-12-29 07:26:25...creating Relationship Meta for AOW_WorkFlow
+2020-12-29 07:26:25...processing table aow_processed
+2020-12-29 07:26:26...creating table aow_processed
+2020-12-29 07:26:26...creating Relationship Meta for AOW_Processed
+2020-12-29 07:26:26...processing table aow_conditions
+2020-12-29 07:26:27...creating table aow_conditions
+2020-12-29 07:26:27...creating Relationship Meta for AOW_Condition
+2020-12-29 07:26:27...processing table jjwg_maps
+2020-12-29 07:26:28...creating table jjwg_maps
+2020-12-29 07:26:28...creating Relationship Meta for jjwg_Maps
+2020-12-29 07:26:29...processing table jjwg_markers
+2020-12-29 07:26:31...creating table jjwg_markers
+2020-12-29 07:26:31...creating Relationship Meta for jjwg_Markers
+2020-12-29 07:26:31...processing table jjwg_areas
+2020-12-29 07:26:32...creating table jjwg_areas
+2020-12-29 07:26:32...creating Relationship Meta for jjwg_Areas
+2020-12-29 07:26:33...processing table jjwg_address_cache
+2020-12-29 07:26:34...creating table jjwg_address_cache
+2020-12-29 07:26:34...creating Relationship Meta for jjwg_Address_Cache
+2020-12-29 07:26:34...processing table calls_reschedule
+2020-12-29 07:26:36...creating table calls_reschedule
+2020-12-29 07:26:36...creating Relationship Meta for Calls_Reschedule
+2020-12-29 07:26:36...processing table securitygroups
+2020-12-29 07:26:37...creating table securitygroups
+2020-12-29 07:26:37...creating Relationship Meta for SecurityGroup
+2020-12-29 07:26:37...processing table outbound_email
+2020-12-29 07:26:39...creating table outbound_email
+2020-12-29 07:26:39...creating Relationship Meta for OutboundEmailAccounts
+2020-12-29 07:26:39...processing table templatesectionline
+2020-12-29 07:26:40...creating table templatesectionline
+2020-12-29 07:26:40...creating Relationship Meta for TemplateSectionLine
+2020-12-29 07:26:40...processing table oauth2tokens
+2020-12-29 07:26:40...creating table oauth2tokens
+2020-12-29 07:26:40...creating Relationship Meta for OAuth2Tokens
+2020-12-29 07:26:41...processing table oauth2clients
+2020-12-29 07:26:41...creating table oauth2clients
+2020-12-29 07:26:41...creating Relationship Meta for OAuth2Clients
+2020-12-29 07:26:41...processing table surveyresponses
+2020-12-29 07:26:42...creating table surveyresponses
+2020-12-29 07:26:42...creating Relationship Meta for SurveyResponses
+2020-12-29 07:26:43...processing table surveys
+2020-12-29 07:26:44...creating table surveys
+2020-12-29 07:26:44...creating Relationship Meta for Surveys
+2020-12-29 07:26:45...processing table surveyquestionresponses
+2020-12-29 07:26:46...creating table surveyquestionresponses
+2020-12-29 07:26:46...creating Relationship Meta for SurveyQuestionResponses
+2020-12-29 07:26:46...processing table surveyquestions
+2020-12-29 07:26:48...creating table surveyquestions
+2020-12-29 07:26:48...creating Relationship Meta for SurveyQuestions
+2020-12-29 07:26:48...processing table surveyquestionoptions
+2020-12-29 07:26:49...creating table surveyquestionoptions
+2020-12-29 07:26:49...creating Relationship Meta for SurveyQuestionOptions
+2020-12-29 07:27:22...Begin creating Defaults
+2020-12-29 07:27:22...insert defaults into config table
+2020-12-29 07:27:22...Creating default users
+2020-12-29 07:27:23...Creating default scheduler jobs
+2020-12-29 07:27:24...Enable SugarFeeds
+2020-12-29 07:27:24...Installation has completed *********
+2020-12-29 07:28:08...populating the db with seed data
+2020-12-29 07:28:08...Save configuration settings..
+2020-12-29 07:28:08...save locale
+2020-12-29 07:28:08...new Administration
+2020-12-29 07:28:08...retrieveSettings
+2020-12-29 07:28:08...AdminWizard OFF
+2020-12-29 07:28:08...saveConfig
+2020-12-29 07:28:08...new Configurator
+2020-12-29 07:28:08...populateFromPost
+2020-12-29 07:28:08...handleOverride
+2020-12-29 07:28:08...addCronAllowedUser
+2020-12-29 07:28:08...saveConfig
+2020-12-29 07:28:08...new Currency
+2020-12-29 07:28:08...retrieve
+2020-12-29 07:28:08...DBG: save currency
+2020-12-29 07:28:08...Save user settings..
+2020-12-29 07:28:09...DBG: SugarThemeRegistry::getDefault
+2020-12-29 07:30:24...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:10:23...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:12:16...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:12:19...Begin System Check Process *************
+2021-01-02 01:12:19...XML Parsing Support Found
+2021-01-02 01:12:19...JSON Parsing Support Found
+2021-01-02 01:12:19...MBString Support Found
+2021-01-02 01:12:19...ZIP Support Found
+2021-01-02 01:12:19.../custom directory and subdirectory check passed
+2021-01-02 01:12:19...cache directory and subdirectory check passed
+2021-01-02 01:12:21.../module  directory and subdirectory check passed
+2021-01-02 01:12:21.../upload directory check passed
+2021-01-02 01:12:21.../zip check passed
+2021-01-02 01:12:21...PCRE version check passed
+2021-01-02 01:12:21...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:12:21...php.ini location found. C:\xampp\php\php.ini
+2021-01-02 01:12:21...Outputting HTML for System check
+2021-01-02 01:12:21...No Errors were found *************
+2021-01-02 01:12:21...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:12:23...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:20:02...Begin DB Check Process *************
+2021-01-02 01:20:02...testing with mysql:mysqli
+2021-01-02 01:20:02...Basic form info is valid, continuing Process.
+2021-01-02 01:20:02...Testing user account...
+2021-01-02 01:20:02...Connection made using  host: localhost, usr: useradmin
+2021-01-02 01:20:02...SUCCESS:: no errors detected!
+2021-01-02 01:20:02...End DB Check Process *************
+2021-01-02 01:20:02...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2021-01-02 01:20:02...calling handleSugarConfig()
+2021-01-02 01:20:02...calling handleHtaccess()
+2021-01-02 01:20:02...calling handleDbCreateDatabase()
+2021-01-02 01:20:06...looping through all the Beans and create their tables
+2021-01-02 01:20:06...processing table acl_actions
+2021-01-02 01:20:06...creating table acl_actions
+2021-01-02 01:20:06...creating Relationship Meta for ACLAction
+2021-01-02 01:20:06...processing table acl_roles
+2021-01-02 01:20:06...creating table acl_roles
+2021-01-02 01:20:07...creating Relationship Meta for ACLRole
+2021-01-02 01:20:07...processing table relationships
+2021-01-02 01:20:07...creating table relationships
+2021-01-02 01:20:07...creating Relationship Meta for Relationship
+2021-01-02 01:20:07...processing table leads
+2021-01-02 01:20:11...creating table leads
+2021-01-02 01:20:11...creating Relationship Meta for Lead
+2021-01-02 01:20:12...processing table cases
+2021-01-02 01:20:14...creating table cases
+2021-01-02 01:20:14...creating Relationship Meta for Case
+2021-01-02 01:20:14...processing table bugs
+2021-01-02 01:20:15...creating table bugs
+2021-01-02 01:20:15...creating Relationship Meta for Bug
+2021-01-02 01:20:16...processing table users
+2021-01-02 01:20:17...creating table users
+2021-01-02 01:20:17...creating Relationship Meta for User
+2021-01-02 01:20:17...processing table campaign_log
+2021-01-02 01:20:18...creating table campaign_log
+2021-01-02 01:20:18...creating Relationship Meta for CampaignLog
+2021-01-02 01:20:18...processing table project
+2021-01-02 01:20:19...creating table project
+2021-01-02 01:20:19...creating Relationship Meta for Project
+2021-01-02 01:20:20...processing table project_task
+2021-01-02 01:20:21...creating table project_task
+2021-01-02 01:20:21...creating Relationship Meta for ProjectTask
+2021-01-02 01:20:22...processing table campaigns
+2021-01-02 01:20:23...creating table campaigns
+2021-01-02 01:20:23...creating Relationship Meta for Campaign
+2021-01-02 01:20:25...processing table prospect_lists
+2021-01-02 01:20:26...creating table prospect_lists
+2021-01-02 01:20:26...creating Relationship Meta for ProspectList
+2021-01-02 01:20:26...processing table prospects
+2021-01-02 01:20:27...creating table prospects
+2021-01-02 01:20:27...creating Relationship Meta for Prospect
+2021-01-02 01:20:28...processing table email_marketing
+2021-01-02 01:20:28...creating table email_marketing
+2021-01-02 01:20:28...creating Relationship Meta for EmailMarketing
+2021-01-02 01:20:29...processing table campaign_trkrs
+2021-01-02 01:20:29...creating table campaign_trkrs
+2021-01-02 01:20:29...creating Relationship Meta for CampaignTracker
+2021-01-02 01:20:29...processing table releases
+2021-01-02 01:20:29...creating table releases
+2021-01-02 01:20:29...creating Relationship Meta for Release
+2021-01-02 01:20:29...processing table emailman
+2021-01-02 01:20:30...creating table emailman
+2021-01-02 01:20:30...creating Relationship Meta for EmailMan
+2021-01-02 01:20:30...processing table schedulers
+2021-01-02 01:20:31...creating table schedulers
+2021-01-02 01:20:31...creating Relationship Meta for Scheduler
+2021-01-02 01:20:31...processing table job_queue
+2021-01-02 01:20:31...creating table job_queue
+2021-01-02 01:20:31...creating Relationship Meta for SchedulersJob
+2021-01-02 01:20:32...processing table contacts
+2021-01-02 01:20:33...creating table contacts
+2021-01-02 01:20:33...creating Relationship Meta for Contact
+2021-01-02 01:20:35...processing table accounts
+2021-01-02 01:20:36...creating table accounts
+2021-01-02 01:20:36...creating Relationship Meta for Account
+2021-01-02 01:20:38...processing table opportunities
+2021-01-02 01:20:39...creating table opportunities
+2021-01-02 01:20:39...creating Relationship Meta for Opportunity
+2021-01-02 01:20:41...processing table email_templates
+2021-01-02 01:20:41...creating table email_templates
+2021-01-02 01:20:41...creating Relationship Meta for EmailTemplate
+2021-01-02 01:20:41...processing table notes
+2021-01-02 01:20:43...creating table notes
+2021-01-02 01:20:43...creating Relationship Meta for Note
+2021-01-02 01:20:43...processing table calls
+2021-01-02 01:20:44...creating table calls
+2021-01-02 01:20:44...creating Relationship Meta for Call
+2021-01-02 01:20:45...processing table emails
+2021-01-02 01:20:46...creating table emails
+2021-01-02 01:20:46...creating Relationship Meta for Email
+2021-01-02 01:20:46...processing table meetings
+2021-01-02 01:20:47...creating table meetings
+2021-01-02 01:20:47...creating Relationship Meta for Meeting
+2021-01-02 01:20:47...processing table tasks
+2021-01-02 01:20:49...creating table tasks
+2021-01-02 01:20:49...creating Relationship Meta for Task
+2021-01-02 01:20:50...processing table users
+2021-01-02 01:20:50...processing table users
+2021-01-02 01:20:50...processing table currencies
+2021-01-02 01:20:50...creating table currencies
+2021-01-02 01:20:50...creating Relationship Meta for Currency
+2021-01-02 01:20:50...processing table tracker
+2021-01-02 01:20:51...creating table tracker
+2021-01-02 01:20:51...creating Relationship Meta for Tracker
+2021-01-02 01:20:51...processing table import_maps
+2021-01-02 01:20:51...creating table import_maps
+2021-01-02 01:20:51...creating Relationship Meta for ImportMap
+2021-01-02 01:20:51...processing table users_last_import
+2021-01-02 01:20:52...creating table users_last_import
+2021-01-02 01:20:52...creating Relationship Meta for UsersLastImport
+2021-01-02 01:20:52...processing table config
+2021-01-02 01:20:52...creating table config
+2021-01-02 01:20:52...creating Relationship Meta for Administration
+2021-01-02 01:20:52...processing table upgrade_history
+2021-01-02 01:20:53...creating table upgrade_history
+2021-01-02 01:20:53...creating Relationship Meta for UpgradeHistory
+2021-01-02 01:20:53...processing table vcals
+2021-01-02 01:20:53...creating table vcals
+2021-01-02 01:20:53...creating Relationship Meta for vCal
+2021-01-02 01:20:53...processing table alerts
+2021-01-02 01:20:54...creating table alerts
+2021-01-02 01:20:54...creating Relationship Meta for Alert
+2021-01-02 01:20:55...processing table roles
+2021-01-02 01:20:55...creating table roles
+2021-01-02 01:20:55...creating Relationship Meta for Role
+2021-01-02 01:20:55...processing table documents
+2021-01-02 01:20:57...creating table documents
+2021-01-02 01:20:57...creating Relationship Meta for Document
+2021-01-02 01:20:57...processing table document_revisions
+2021-01-02 01:20:57...creating table document_revisions
+2021-01-02 01:20:57...creating Relationship Meta for DocumentRevision
+2021-01-02 01:20:58...processing table fields_meta_data
+2021-01-02 01:20:58...creating table fields_meta_data
+2021-01-02 01:20:58...creating Relationship Meta for FieldsMetaData
+2021-01-02 01:20:58...processing table 
+2021-01-02 01:20:59...processing table inbound_email
+2021-01-02 01:20:59...creating table inbound_email
+2021-01-02 01:20:59...creating Relationship Meta for InboundEmail
+2021-01-02 01:20:59...processing table saved_search
+2021-01-02 01:20:59...creating table saved_search
+2021-01-02 01:21:00...creating Relationship Meta for SavedSearch
+2021-01-02 01:21:00...processing table user_preferences
+2021-01-02 01:21:00...creating table user_preferences
+2021-01-02 01:21:00...creating Relationship Meta for UserPreference
+2021-01-02 01:21:00...processing table 
+2021-01-02 01:21:00...processing table email_addresses
+2021-01-02 01:21:01...creating table email_addresses
+2021-01-02 01:21:01...creating Relationship Meta for EmailAddress
+2021-01-02 01:21:01...processing table emails_text
+2021-01-02 01:21:02...creating table emails_text
+2021-01-02 01:21:02...creating Relationship Meta for EmailText
+2021-01-02 01:21:02...processing table spots
+2021-01-02 01:21:03...creating table spots
+2021-01-02 01:21:03...creating Relationship Meta for Spots
+2021-01-02 01:21:04...processing table aobh_businesshours
+2021-01-02 01:21:04...creating table aobh_businesshours
+2021-01-02 01:21:04...creating Relationship Meta for AOBH_BusinessHours
+2021-01-02 01:21:04...processing table sugarfeed
+2021-01-02 01:21:05...creating table sugarfeed
+2021-01-02 01:21:05...creating Relationship Meta for SugarFeed
+2021-01-02 01:21:05...processing table eapm
+2021-01-02 01:21:06...creating table eapm
+2021-01-02 01:21:06...creating Relationship Meta for EAPM
+2021-01-02 01:21:07...processing table oauth_consumer
+2021-01-02 01:21:07...creating table oauth_consumer
+2021-01-02 01:21:07...creating Relationship Meta for OAuthKey
+2021-01-02 01:21:08...processing table oauth_tokens
+2021-01-02 01:21:08...creating table oauth_tokens
+2021-01-02 01:21:08...creating Relationship Meta for OAuthToken
+2021-01-02 01:21:09...processing table am_projecttemplates
+2021-01-02 01:21:10...creating table am_projecttemplates
+2021-01-02 01:21:10...creating Relationship Meta for AM_ProjectTemplates
+2021-01-02 01:21:11...processing table am_tasktemplates
+2021-01-02 01:21:12...creating table am_tasktemplates
+2021-01-02 01:21:12...creating Relationship Meta for AM_TaskTemplates
+2021-01-02 01:21:12...processing table favorites
+2021-01-02 01:21:13...creating table favorites
+2021-01-02 01:21:13...creating Relationship Meta for Favorites
+2021-01-02 01:21:13...processing table aok_knowledge_base_categories
+2021-01-02 01:21:15...creating table aok_knowledge_base_categories
+2021-01-02 01:21:15...creating Relationship Meta for AOK_Knowledge_Base_Categories
+2021-01-02 01:21:15...processing table aok_knowledgebase
+2021-01-02 01:21:17...creating table aok_knowledgebase
+2021-01-02 01:21:17...creating Relationship Meta for AOK_KnowledgeBase
+2021-01-02 01:21:17...processing table reminders
+2021-01-02 01:21:18...creating table reminders
+2021-01-02 01:21:18...creating Relationship Meta for Reminder
+2021-01-02 01:21:18...processing table reminders_invitees
+2021-01-02 01:21:19...creating table reminders_invitees
+2021-01-02 01:21:19...creating Relationship Meta for Reminder_Invitee
+2021-01-02 01:21:19...processing table fp_events
+2021-01-02 01:21:21...creating table fp_events
+2021-01-02 01:21:21...creating Relationship Meta for FP_events
+2021-01-02 01:21:21...processing table fp_event_locations
+2021-01-02 01:21:23...creating table fp_event_locations
+2021-01-02 01:21:23...creating Relationship Meta for FP_Event_Locations
+2021-01-02 01:21:23...processing table aod_indexevent
+2021-01-02 01:21:25...creating table aod_indexevent
+2021-01-02 01:21:25...creating Relationship Meta for AOD_IndexEvent
+2021-01-02 01:21:26...processing table aod_index
+2021-01-02 01:21:27...creating table aod_index
+2021-01-02 01:21:27...creating Relationship Meta for AOD_Index
+2021-01-02 01:21:28...processing table aop_case_events
+2021-01-02 01:21:29...creating table aop_case_events
+2021-01-02 01:21:29...creating Relationship Meta for AOP_Case_Events
+2021-01-02 01:21:30...processing table aop_case_updates
+2021-01-02 01:21:31...creating table aop_case_updates
+2021-01-02 01:21:31...creating Relationship Meta for AOP_Case_Updates
+2021-01-02 01:21:32...processing table aor_reports
+2021-01-02 01:21:33...creating table aor_reports
+2021-01-02 01:21:33...creating Relationship Meta for AOR_Report
+2021-01-02 01:21:34...processing table aor_fields
+2021-01-02 01:21:34...creating table aor_fields
+2021-01-02 01:21:34...creating Relationship Meta for AOR_Field
+2021-01-02 01:21:35...processing table aor_charts
+2021-01-02 01:21:35...creating table aor_charts
+2021-01-02 01:21:35...creating Relationship Meta for AOR_Chart
+2021-01-02 01:21:35...processing table aor_conditions
+2021-01-02 01:21:36...creating table aor_conditions
+2021-01-02 01:21:36...creating Relationship Meta for AOR_Condition
+2021-01-02 01:21:36...processing table aor_scheduled_reports
+2021-01-02 01:21:38...creating table aor_scheduled_reports
+2021-01-02 01:21:38...creating Relationship Meta for AOR_Scheduled_Reports
+2021-01-02 01:21:39...processing table aos_contracts
+2021-01-02 01:21:40...creating table aos_contracts
+2021-01-02 01:21:40...creating Relationship Meta for AOS_Contracts
+2021-01-02 01:21:41...processing table aos_invoices
+2021-01-02 01:21:42...creating table aos_invoices
+2021-01-02 01:21:42...creating Relationship Meta for AOS_Invoices
+2021-01-02 01:21:43...processing table aos_pdf_templates
+2021-01-02 01:21:44...creating table aos_pdf_templates
+2021-01-02 01:21:44...creating Relationship Meta for AOS_PDF_Templates
+2021-01-02 01:21:44...processing table aos_product_categories
+2021-01-02 01:21:46...creating table aos_product_categories
+2021-01-02 01:21:46...creating Relationship Meta for AOS_Product_Categories
+2021-01-02 01:21:46...processing table aos_products
+2021-01-02 01:21:47...creating table aos_products
+2021-01-02 01:21:47...creating Relationship Meta for AOS_Products
+2021-01-02 01:21:48...processing table aos_products_quotes
+2021-01-02 01:21:49...creating table aos_products_quotes
+2021-01-02 01:21:49...creating Relationship Meta for AOS_Products_Quotes
+2021-01-02 01:21:49...processing table aos_line_item_groups
+2021-01-02 01:21:50...creating table aos_line_item_groups
+2021-01-02 01:21:50...creating Relationship Meta for AOS_Line_Item_Groups
+2021-01-02 01:21:50...processing table aos_quotes
+2021-01-02 01:21:52...creating table aos_quotes
+2021-01-02 01:21:52...creating Relationship Meta for AOS_Quotes
+2021-01-02 01:21:52...processing table aow_actions
+2021-01-02 01:21:53...creating table aow_actions
+2021-01-02 01:21:53...creating Relationship Meta for AOW_Action
+2021-01-02 01:21:53...processing table aow_workflow
+2021-01-02 01:21:54...creating table aow_workflow
+2021-01-02 01:21:54...creating Relationship Meta for AOW_WorkFlow
+2021-01-02 01:21:55...processing table aow_processed
+2021-01-02 01:21:57...creating table aow_processed
+2021-01-02 01:21:57...creating Relationship Meta for AOW_Processed
+2021-01-02 01:21:57...processing table aow_conditions
+2021-01-02 01:21:57...creating table aow_conditions
+2021-01-02 01:21:57...creating Relationship Meta for AOW_Condition
+2021-01-02 01:21:58...processing table jjwg_maps
+2021-01-02 01:21:59...creating table jjwg_maps
+2021-01-02 01:21:59...creating Relationship Meta for jjwg_Maps
+2021-01-02 01:22:00...processing table jjwg_markers
+2021-01-02 01:22:02...creating table jjwg_markers
+2021-01-02 01:22:02...creating Relationship Meta for jjwg_Markers
+2021-01-02 01:22:02...processing table jjwg_areas
+2021-01-02 01:22:04...creating table jjwg_areas
+2021-01-02 01:22:04...creating Relationship Meta for jjwg_Areas
+2021-01-02 01:22:04...processing table jjwg_address_cache
+2021-01-02 01:22:06...creating table jjwg_address_cache
+2021-01-02 01:22:06...creating Relationship Meta for jjwg_Address_Cache
+2021-01-02 01:22:06...processing table calls_reschedule
+2021-01-02 01:22:08...creating table calls_reschedule
+2021-01-02 01:22:08...creating Relationship Meta for Calls_Reschedule
+2021-01-02 01:22:08...processing table securitygroups
+2021-01-02 01:22:10...creating table securitygroups
+2021-01-02 01:22:10...creating Relationship Meta for SecurityGroup
+2021-01-02 01:22:10...processing table outbound_email
+2021-01-02 01:22:11...creating table outbound_email
+2021-01-02 01:22:11...creating Relationship Meta for OutboundEmailAccounts
+2021-01-02 01:22:12...processing table templatesectionline
+2021-01-02 01:22:13...creating table templatesectionline
+2021-01-02 01:22:13...creating Relationship Meta for TemplateSectionLine
+2021-01-02 01:22:13...processing table oauth2tokens
+2021-01-02 01:22:13...creating table oauth2tokens
+2021-01-02 01:22:13...creating Relationship Meta for OAuth2Tokens
+2021-01-02 01:22:13...processing table oauth2clients
+2021-01-02 01:22:14...creating table oauth2clients
+2021-01-02 01:22:14...creating Relationship Meta for OAuth2Clients
+2021-01-02 01:22:14...processing table surveyresponses
+2021-01-02 01:22:16...creating table surveyresponses
+2021-01-02 01:22:16...creating Relationship Meta for SurveyResponses
+2021-01-02 01:22:17...processing table surveys
+2021-01-02 01:22:18...creating table surveys
+2021-01-02 01:22:18...creating Relationship Meta for Surveys
+2021-01-02 01:22:18...processing table surveyquestionresponses
+2021-01-02 01:22:20...creating table surveyquestionresponses
+2021-01-02 01:22:20...creating Relationship Meta for SurveyQuestionResponses
+2021-01-02 01:22:20...processing table surveyquestions
+2021-01-02 01:22:21...creating table surveyquestions
+2021-01-02 01:22:21...creating Relationship Meta for SurveyQuestions
+2021-01-02 01:22:22...processing table surveyquestionoptions
+2021-01-02 01:22:23...creating table surveyquestionoptions
+2021-01-02 01:22:24...creating Relationship Meta for SurveyQuestionOptions
+2021-01-02 01:23:06...Begin creating Defaults
+2021-01-02 01:23:06...insert defaults into config table
+2021-01-02 01:23:07...Creating default users
+2021-01-02 01:23:07...Creating default scheduler jobs
+2021-01-02 01:23:08...Enable SugarFeeds
+2021-01-02 01:23:09...Installation has completed *********
+2021-01-02 01:24:14...populating the db with seed data
+2021-01-02 01:32:24...Save configuration settings..
+2021-01-02 01:32:24...save locale
+2021-01-02 01:32:24...new Administration
+2021-01-02 01:32:24...retrieveSettings
+2021-01-02 01:32:24...AdminWizard OFF
+2021-01-02 01:32:24...saveConfig
+2021-01-02 01:32:25...new Configurator
+2021-01-02 01:32:25...populateFromPost
+2021-01-02 01:32:25...handleOverride
+2021-01-02 01:32:25...addCronAllowedUser
+2021-01-02 01:32:25...saveConfig
+2021-01-02 01:32:25...new Currency
+2021-01-02 01:32:25...retrieve
+2021-01-02 01:32:25...DBG: save currency
+2021-01-02 01:32:25...Save user settings..
+2021-01-02 01:32:26...DBG: SugarThemeRegistry::getDefault
+2021-01-02 01:37:50...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
